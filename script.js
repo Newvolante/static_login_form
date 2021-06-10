@@ -16,7 +16,7 @@
     });
 
     showPwChk.addEventListener('change', function() {
-        if (showPwChk.checked == true) {
+        if (showPwChk.checked) {
             passField.type = 'text';
         } else {
             passField.type = 'password';
