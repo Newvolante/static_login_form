@@ -16,6 +16,11 @@
     });
 
     showPwChk.addEventListener('change', function() {
-        passField.type = 'text';
+        if (showPwChk.checked == true) {
+            passField.type = 'text';
+        } else {
+            passField.type = 'password';
+        }
     });
+
 })();
