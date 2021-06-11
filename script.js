@@ -1,7 +1,6 @@
 (function() {
     console.warn('Script correctly linked to the web page');
     
-    let formContainer = document.getElementById('form_container');
     let nameField = document.getElementById('name');
     let passField = document.getElementById('pass');
     let showPwChk = document.getElementById('showText');
@@ -35,5 +34,4 @@
         console.log('called change event');
         (!nameField.value || !passField.value) ? loginButton.disabled = true : loginButton.disabled = false;
     })});
-
 })();
