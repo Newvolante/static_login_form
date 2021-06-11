@@ -9,18 +9,22 @@
 <body>
     <form action="">
         <div>
-            <fieldset>
+            <fieldset id="form_container">
                 <legend>Login</legend>
                 
-                <label for="name">Name</label>
-                <input id="name"type="text">
+                <!-- name field -->
+                <label for="name"></label>Name</label>
+                <input id="name" class="main-field" type="text">
                 <br />
+                <!-- password field -->
                 <label for="pass">Password</label>
-                <input id="pass" type="password">
+                <input id="pass" class="main-field" type="password">
                 <br />
+                <!-- checkbox -->
                 <input type="checkbox" id="showText" name="show_text">
                 <label for="showText">show password</label>
                 <br />
+                <!-- submit button -->
                 <input type="submit" value="login" name="login_btn"></fieldset>
             </fieldset>
         </div>
